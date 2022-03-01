@@ -7,3 +7,16 @@
 * Model : klue/roberta-large 30개 앙상블 (hard voting)
 * Data : klue - nli dataset ( https://klue-benchmark.com/tasks/68/data/download )
 * GPU : A6000 x 2 (96GB), A5000 x 2 (48GB)
+
+
++ code
+  + data
+    + data_aug.tsv
+    + train_data.tsv
+    + test_data.tsv
+  + train.py
+  + classify.py
+  + utils.py
+  + bert_dataset.py
+     
+ 
