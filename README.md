@@ -20,3 +20,11 @@
   + bert_dataset.py
      
  
+ 
+학습 방법
+
+ ```
+ $ python train.py 
+ ```
+ 
+ 
