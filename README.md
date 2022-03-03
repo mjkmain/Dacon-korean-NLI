@@ -33,7 +33,7 @@
  
  ### 추론
  ```
- $ python classify.py
+ $ cat ./data/test_data.tsv | awk -F '\t' '{print $2, $3}' | python classify.py
  ```
  
  
