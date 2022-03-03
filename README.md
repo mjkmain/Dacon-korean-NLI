@@ -21,7 +21,7 @@
      
  
  
-### 학습 방법
+### Train
 
  ```
  $ python train.py --model_fn [SAVE_PATH] --train_fn [TRAIN_DATA_PATH] --pretrained_model_name [PRETRAINED_MODEL_NAME] 
@@ -31,7 +31,7 @@
 
  ```
  
- ### 추론
+ ### Classify
  ```
  $ cat ./data/test_data.tsv | awk -F '\t' '{print $2, $3}' | python classify.py
  ```
