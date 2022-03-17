@@ -23,7 +23,7 @@
  
 ### Train
 
- ```
+ ```bash
  $ python train.py --model_fn [SAVE_PATH] --train_fn [TRAIN_DATA_PATH] --pretrained_model_name [PRETRAINED_MODEL_NAME] 
  --valid_ratio [RATIO_OF_VALIDATION_DATA] --batch_size_per_device [BATCH_SIZE] --lr [LEARNING_RATE] --n_epochs [EPOCHS]
  --weight_decay [WEIGHT_DECAY] --warmup_ratio [WARM_UP_RATIO] --max_length [MAX_LENGTH] --amp [AUTOMATIC_MIXED_PRECISION]
@@ -32,7 +32,7 @@
  ```
  
  ### Classify
- ```
+ ```bash
  $ cat ./data/test_data.tsv | awk -F '\t' '{print $2, $3}' | python classify.py
  ```
  
